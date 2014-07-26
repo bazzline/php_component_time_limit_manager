@@ -1,0 +1,32 @@
+{
+    "description": "Supports you to validate if your script is reaching the allowed maximum runtime",
+    "keywords": ["php", "component", "runtime", "limit", "runtime limit", "maximum runtime"],
+    "license": "LGPLv3",
+    "name": "net_bazzline/php_component_time_limit_manager",
+    "type": "library",
+    "authors": [
+        {
+            "email": "artodeto@bazzline.net",
+            "homepage": "https://artodeto.bazzline.et",
+            "name": "Stev Leibelt",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*",
+        "mockery/mockery": "dev-master",
+        "phpmd/phpmd": "1.5.0",
+        "apigen/apigen": "2.8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example\\Net\\Bazzline\\Component\\TimeLimitManager": "example/",
+            "Net\\Bazzline\\Component\\TimeLimitManager": "source/",
+            "Test\\Net\\Bazzline\\Component\\TimeLimitManager": "test/"
+        }
+    }
+}

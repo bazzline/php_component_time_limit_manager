@@ -1,4 +1,16 @@
-php_component_time_limit_manager
-================================
+# Time Limit Manager Component for PHP
 
-php component time limit manager validates if maximum runtime is reached
+This component helps you to validate if your script reaches the allowed maximum runtime.
+
+Furthermore, you can set your own runtime limit (as long as it is below the limit in you php.ini).
+
+# Benefits
+
+* provides easy setting of runtime limit
+* comes with [DependentInterface](@todo) and [AwareInterface](@todo)
+
+# History
+
+# Future Improvements
+
+* write unit tests
