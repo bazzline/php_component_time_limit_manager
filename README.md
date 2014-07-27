@@ -6,6 +6,8 @@ Furthermore, you can set your own runtime limit (as long as it is below the limi
 
 The build status of the current master branch is tracked by Travis CI:
 
+It is also available at [openhub.net](http://www.openhub.net/p/718008).
+
 [![Build Status](https://travis-ci.org/bazzline/php_component_time_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_time_limit_manager)
 
 # Benefits
