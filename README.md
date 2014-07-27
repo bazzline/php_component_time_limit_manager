@@ -49,11 +49,15 @@ while (!empty($dataSet)) {
 }
 ```
 
+# API
+
+Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_time_limit_manager/blob/master/document/index.html) section.
+
 # History
 
-* [1.0.0](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.0) - not yet released
-* [0.0.1](https://github.com/bazzline/php_component_time_limit_manager/tree/0.0.1) - released at 2014.07.27
+* [1.0.0](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.0) - released at 27.07.2014
+* [0.0.1](https://github.com/bazzline/php_component_time_limit_manager/tree/0.0.1) - released at 27.07.2014
 
 # Future Improvements
 
-* use [apigen](https://github.com/apigen/apigen)
+* if you have one, create a feature request, fork it (and push it back :-))
