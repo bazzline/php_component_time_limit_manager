@@ -82,7 +82,8 @@ class TimeLimitManager
                 throw new InvalidArgumentException(
                     'provided limit (' . $seconds .
                     ') is above ini limit (' .
-                    $this->limitFromIniInSeconds . ')'
+                    $this->limitFromIniInSeconds . ')',
+                    1
                 );
             }
         }
