@@ -77,12 +77,14 @@ class TimeLimitManager
      */
     public function setLimitInSeconds($limitInSeconds)
     {
-        if ($limitInSeconds > $this->limitFromIniInSeconds) {
-            throw new InvalidArgumentException(
-                'provided limit (' . $limitInSeconds .
-                ') is above ini limit (' .
-                $this->limitFromIniInSeconds . ')'
-            );
+        if ($this->limitFromIniInSeconds > 0) {
+            if ($limitInSeconds > $this->limitFromIniInSeconds) {
+                throw new InvalidArgumentException(
+                    'provided limit (' . $limitInSeconds .
+                    ') is above ini limit (' .
+                    $this->limitFromIniInSeconds . ')'
+                );
+            }
         }
 
         $this->limitInSeconds = time() + (int) $limitInSeconds;

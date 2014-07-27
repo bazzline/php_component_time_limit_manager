@@ -6,10 +6,10 @@
 
 namespace Net\Bazzline\Component\TimeLimitManager;
 
-use InvalidArgumentException as Parent;
+use InvalidArgumentException as ParentClass;
 
 /**
  * Class InvalidArgumentException
  * @package Net\Bazzline\Component\TimeLimitManager
  */
-class InvalidArgumentException extends Parent {}
+class InvalidArgumentException extends ParentClass {}
