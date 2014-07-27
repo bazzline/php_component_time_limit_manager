@@ -12,7 +12,7 @@ $startTime = time();
 
 $manager = new Net\Bazzline\Component\TimeLimitManager\TimeLimitManager();
 $manager->setBufferInSeconds(0);
-$manager->setLimitInSeconds(10);
+$manager->setLimitInSeconds(9);
 
 $scriptRunTimeInSeconds = 9;
 
