@@ -32,6 +32,23 @@ The build status of the current master branch is tracked by Travis CI:
 
     composer require net_bazzline/php_component_time_limit_manager:dev-master
 
+# Usage
+
+```php
+$manager = new Net\Bazzline\Component\TimeLimitManager\TimeLimitManager();
+$manager->setBufferInSeconds(1);
+$manager->setLimitInSeconds(4);
+
+while (!empty($dataSet)) {
+    if ($manager->isLimitReached()) {
+        //exit while loop, shutdown process
+    } else {
+        $data = array_shift($dataSet);
+        //work on data set
+    }
+}
+```
+
 # History
 
 * [1.0.0](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.0) - not yet released
@@ -39,5 +56,4 @@ The build status of the current master branch is tracked by Travis CI:
 
 # Future Improvements
 
-* write unit tests
 * use [apigen](https://github.com/apigen/apigen)
