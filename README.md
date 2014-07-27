@@ -7,6 +7,7 @@ Furthermore, you can set your own runtime limit (as long as it is below the limi
 # Benefits
 
 * provides easy setting of runtime limit
+* gives you the advantage to add a buffer before reaching the limit to easy up reacting when limit is reached
 * comes with [DependentInterface](@todo) and [AwareInterface](@todo)
 
 # History
