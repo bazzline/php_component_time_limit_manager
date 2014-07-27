@@ -8,19 +8,19 @@ The build status of the current master branch is tracked by Travis CI:
 
 It is also available at [openhub.net](http://www.openhub.net/p/718008).
 
-[![Build Status](https://travis-ci.org/bazzline/php_component_time_limit_manager.png?branch=master)](http://travis-ci.org/bazzline/php_component_time_limit_manager)
+[![Build Status](https://travis-ci.org/bazzline/php_component_time_limit_manager.png?branch=1.0.0)](http://travis-ci.org/bazzline/php_component_time_limit_manager)
 
 # Benefits
 
 * provides easy setting of runtime limit
 * gives you the advantage to add a buffer before reaching the limit to easy up reacting when limit is reached
 * helps you to set the limit in seconds, minutes or hours (same for the buffer)
-* comes with [DependentInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerAwareInterface.php)
+* comes with [DependentInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/1.0.0/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/1.0.0/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerAwareInterface.php)
 
 # Examples
 
-* [with reaching runtime limit](https://github.com/bazzline/php_component_time_limit_manager/blob/master/example/Example/withReachingLimit.php)
-* [without reaching runtime limit](https://github.com/bazzline/php_component_time_limit_manager/blob/master/example/Example/withoutReachingLimit.php)
+* [with reaching runtime limit](https://github.com/bazzline/php_component_time_limit_manager/blob/1.0.0/example/Example/withReachingLimit.php)
+* [without reaching runtime limit](https://github.com/bazzline/php_component_time_limit_manager/blob/1.0.0/example/Example/withoutReachingLimit.php)
 
 # Install
 
@@ -32,7 +32,7 @@ It is also available at [openhub.net](http://www.openhub.net/p/718008).
 
 ## With [Packagist](https://packagist.org/packages/net_bazzline/php_component_time_limit_manager)
 
-    composer require net_bazzline/php_component_time_limit_manager:dev-master
+    composer require net_bazzline/php_component_time_limit_manager:1.0.0
 
 # Usage
 
@@ -53,7 +53,7 @@ while (!empty($dataSet)) {
 
 # API
 
-Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_time_limit_manager/blob/master/document/index.html) section.
+Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_time_limit_manager/blob/1.0.0/document/index.html) section.
 
 # History
 
