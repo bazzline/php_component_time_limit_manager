@@ -40,3 +40,4 @@ The build status of the current master branch is tracked by Travis CI:
 # Future Improvements
 
 * write unit tests
+* use [apigen](https://github.com/apigen/apigen)
