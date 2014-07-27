@@ -61,6 +61,27 @@ class TimeLimitManagerTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($expectedLimitInSeconds, $manager->getLimitInSeconds(), 'in hours');
     }
 
+    public function testBufferSetterAndGetter()
+    {
+        $bufferInSeconds = 3600;
+        $bufferInMinutes = 15;
+        $bufferInHours = 2;
+
+        $manager = $this->getNewManager();
+
+        $expectedBufferInSeconds = $bufferInSeconds;
+        $manager->setBufferInSeconds($bufferInSeconds);
+        $this->assertEquals($expectedBufferInSeconds, $manager->getBufferInSeconds(), 'in seconds');
+
+        $expectedBufferInSeconds = ($bufferInMinutes * 60);
+        $manager->setBufferInMinutes($bufferInMinutes);
+        $this->assertEquals($expectedBufferInSeconds, $manager->getBufferInSeconds(), 'in minutes');
+
+        $expectedBufferInSeconds = ($bufferInHours * 3600);
+        $manager->setBufferInHours($bufferInHours);
+        $this->assertEquals($expectedBufferInSeconds, $manager->getBufferInSeconds(), 'in hours');
+    }
+
     public function testIsLimitReached()
     {
         $manager = $this->getNewManager();
