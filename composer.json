@@ -25,7 +25,6 @@
     },
     "autoload": {
         "psr-0": {
-            "Example\\Net\\Bazzline\\Component\\TimeLimitManager": "example/",
             "Net\\Bazzline\\Component\\TimeLimitManager": "source/",
             "Test\\Net\\Bazzline\\Component\\TimeLimitManager": "test/"
         }
