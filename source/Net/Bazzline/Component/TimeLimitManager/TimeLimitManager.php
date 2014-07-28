@@ -1,7 +1,7 @@
 <?php
 /**
- * @author: sleibelt
- * @since: 7/23/14
+ * @author stev leibelt <artodeto@bazzline.net>
+ * @since 2014-07-23
  */
 
 namespace Net\Bazzline\Component\TimeLimitManager;
