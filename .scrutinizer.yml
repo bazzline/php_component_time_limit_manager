@@ -7,5 +7,3 @@ checks:
   php:
     code_rating: true
     duplication: true
-tools:
-  external_code_coverage: false
