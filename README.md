@@ -11,7 +11,7 @@ The scrutinizer status are:
 [![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/)
 
 The versioneye status is:
-[![dependencies](https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c/badge.svg?style=flat)(https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c)
+[![dependencies](https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c)
 
 It is also available at [openhub.net](http://www.openhub.net/p/718008).
 
