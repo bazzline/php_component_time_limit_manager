@@ -27,7 +27,7 @@ class TimeLimitManagerTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @throws \RuntimeException
+     * @throws RuntimeException
      */
     protected function tearDown()
     {
