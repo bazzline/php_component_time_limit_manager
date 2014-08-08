@@ -72,7 +72,7 @@ class TimeLimitManager
     }
 
     /**
-     * @param $seconds
+     * @param int $seconds
      * @throws InvalidArgumentException
      */
     public function setLimitInSeconds($seconds)
