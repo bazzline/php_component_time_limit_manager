@@ -1,7 +1,7 @@
 filter:
-    exclude_paths:
-        - test/*
-        - example/*
-        - document/*
+  exclude_paths:
+    - test/*
+    - example/*
+    - document/*
 tools:
-    external_code_coverage: false
+  external_code_coverage: false
