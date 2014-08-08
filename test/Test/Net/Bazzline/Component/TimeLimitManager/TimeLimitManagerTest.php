@@ -23,7 +23,7 @@ class TimeLimitManagerTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->initialLimit = ini_get('max_execution_time');
+        $this->initialLimit = (int) ini_get('max_execution_time');
     }
 
     /**
