@@ -65,10 +65,12 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 
 # History
 
-* [1.0.1](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.1) - not released yet
+* [1.0.2](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.2) - not released yet
+* [1.0.1](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.1) - released at 31.08.2014
     * add getRuntimeIn[Seconds|Minutes|Hours]
     * extended unit tests by covering setting of the buffer
     * added getter for minutes and hours
+    * updated dependencies
 * [1.0.0](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.0) - released at 27.07.2014
     * added examples, unit tests and api
 * [0.0.1](https://github.com/bazzline/php_component_time_limit_manager/tree/0.0.1) - released at 27.07.2014
