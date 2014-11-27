@@ -33,7 +33,7 @@ It is also available at [openhub.net](http://www.openhub.net/p/718008).
 
 # Install
 
-## Manuel
+## By Hand
 
     mkdir -p vendor/net_bazzline/php_component_time_limit_manager
     cd vendor/net_bazzline/php_component_time_limit_manager
