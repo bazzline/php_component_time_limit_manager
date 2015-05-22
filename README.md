@@ -67,6 +67,8 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 # History
 
 * upcomming
+* [1.0.3](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.3) - released at 22.05.2015
+    * updated dependencies
 * [1.0.2](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.2) - released at 08.02.2015
     * updated dependencies
     * removed dependency to apigen
