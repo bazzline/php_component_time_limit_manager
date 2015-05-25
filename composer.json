@@ -1,6 +1,6 @@
 {
-    "description": "Supports you to validate if your script is reaching the allowed maximum runtime",
-    "keywords": ["php", "component", "runtime", "limit", "runtime limit", "maximum runtime", "time limit manager", "runtime manager", "runtime limit manager"],
+    "description": "free as in freedom php component to validate if your script is reaching the allowed maximum runtime",
+    "keywords": ["php", "component", "runtime", "limit", "runtime limit", "maximum runtime", "time limit manager", "runtime manager", "runtime limit manager", "lgpl", "free as in freedom"],
     "license": "LGPLv3",
     "name": "net_bazzline/php_component_time_limit_manager",
     "type": "library",
