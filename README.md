@@ -9,7 +9,7 @@ The build status of the current master branch is tracked by Travis CI:
 [![Latest stable](https://img.shields.io/packagist/v/net_bazzline/php_component_time_limit_manager.svg)](https://packagist.org/packages/net_bazzline/php_component_time_limit_manager)
 
 The scrutinizer status are:
-[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/) | [![code coverage](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/)
+[![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_time_limit_manager/)
 
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e4ec98e0a229bcec00011c)
@@ -67,6 +67,7 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 # History
 
 * upcomming
+    * removed useless code coverage image
     * updated dependencies
 * [1.0.3](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.3) - released at 22.05.2015
     * updated dependencies
