@@ -67,6 +67,8 @@ Thanks to [apigen](https://github.com/apigen/apigen), the api is available in th
 # History
 
 * upcomming
+    * @todo
+        * implement way of measure/calculate the amount of time for next iteration
     * removed useless code coverage image
     * updated dependencies
 * [1.0.3](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.3) - released at 22.05.2015
