@@ -62,13 +62,15 @@ while (!empty($dataSet)) {
 
 # API
 
-Thanks to [apigen](https://github.com/apigen/apigen), the api is available in the [document](https://github.com/bazzline/php_component_time_limit_manager/blob/master/document/index.html) section or [online](http://code.bazzline.net/).
+[API](http://bazzline.net/70a2476a6a32b01511ef76c2360fa44bdcf14403/index.html) is available at [bazzline.net](http://www.bazzline.net)
 
 # History
 
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of time for next iteration
+* [1.0.4](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.4) - released at 04.07.2015
+    * removed local apigen documentation
     * removed useless code coverage image
     * updated dependencies
 * [1.0.3](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.3) - released at 22.05.2015
