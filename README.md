@@ -69,6 +69,8 @@ while (!empty($dataSet)) {
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of time for next iteration
+* [1.0.7](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.7) - released at 11.12.2015
+    * updated dependencies
 * [1.0.6](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.6) - released at 18.11.2015
     * updated dependencies
 * [1.0.5](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.5) - released at 28.08.2015
