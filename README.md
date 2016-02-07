@@ -69,6 +69,8 @@ while (!empty($dataSet)) {
 * upcomming
     * @todo
         * implement way of measure/calculate the amount of time for next iteration
+    * added dedicated travis integration test for php 7.0
+    * removed dedicated travis integration test for php 5.3.3
 * [1.0.9](https://github.com/bazzline/php_component_time_limit_manager/tree/1.0.9) - released at 07.02.2016
     * moved to psr-7 autoloading
     * updated dependencies
