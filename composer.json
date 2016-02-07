@@ -1,6 +1,21 @@
 {
     "description": "free as in freedom php component to validate if your script is reaching the allowed maximum runtime",
-    "keywords": ["php", "component", "runtime", "limit", "runtime limit", "maximum runtime", "time limit manager", "runtime manager", "runtime limit manager", "lgpl", "free as in freedom"],
+    "keywords": [
+        "php",
+        "bazzline",
+        "psr",
+        "psr-4",
+        "component",
+        "runtime",
+        "limit",
+        "runtime limit",
+        "maximum runtime",
+        "time limit manager",
+        "runtime manager",
+        "runtime limit manager",
+        "lgpl",
+        "free as in freedom"
+    ],
     "license": "LGPLv3",
     "name": "net_bazzline/php_component_time_limit_manager",
     "type": "library",
@@ -18,12 +33,16 @@
     },
     "require-dev": {
         "mockery/mockery": "0.9.4",
-        "phpunit/phpunit": ">?4.8.16"
+        "phpunit/phpunit": "~4.8||~5.1"
     },
     "autoload": {
-        "psr-0": {
-            "Net\\Bazzline\\Component\\TimeLimitManager": "source/",
-            "Test\\Net\\Bazzline\\Component\\TimeLimitManager": "test/"
+        "psr-4": {
+            "Net\\Bazzline\\Component\\TimeLimitManager\\": "source/"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+            "Test\\Net\\Bazzline\\Component\\TimeLimitManager\\": "test/"
         }
     }
 }
