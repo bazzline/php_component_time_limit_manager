@@ -104,3 +104,7 @@ while (!empty($dataSet)) {
 # Future Improvements
 
 * if you have one, create a feature request, fork it (and push it back :-))
+
+# Final Words
+
+Star it if you like it :-). Add issues if you need it. Pull patches if you enjoy it. Write a blog entry if you use it. [Donate something](https://gratipay.com/~stevleibelt) if you love it :-].
