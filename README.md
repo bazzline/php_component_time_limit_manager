@@ -24,7 +24,7 @@ It is also available at [openhub.net](http://www.openhub.net/p/718008).
 * provides easy setting of runtime limit
 * gives you the advantage to add a buffer before reaching the limit to easy up reacting when limit is reached
 * helps you to set the limit in seconds, minutes or hours (same for the buffer)
-* comes with [DependentInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/Net/Bazzline/Component/TimeLimitManager/TimeLimitManagerAwareInterface.php)
+* comes with [DependentInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/TimeLimitManagerDependentInterface.php) and [AwareInterface](https://github.com/bazzline/php_component_time_limit_manager/blob/master/source/TimeLimitManagerAwareInterface.php)
 
 # Examples
 
